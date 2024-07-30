@@ -1,0 +1,97 @@
+#head{
+    background-color:white;
+    display:flex;
+    margin-bottom: 1vh;
+    justify-content: space-between;
+    border:5px solid palevioletred;
+    border-radius: 20px;
+}
+#head button{
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+    color: black;
+    border:none;
+    background-color: white;
+    padding:3px;
+    border: 3px solid palevioletred;
+    border-radius:5px;
+}
+
+#user{
+    display: flex;
+    align-items: center;
+}
+
+
+#pfp{
+    height:2vw;
+    width: 2vw;
+    display:flex;
+    align-self: center;
+    border-radius: 50px;
+}
+
+#infopane {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    right: 2vw;
+    flex-direction: column;
+    border:3px solid palevioletred;
+    margin:0px;
+    padding: 0px;
+}
+#formname{
+    text-decoration: underline;
+color: palevioletred;
+font-size: large;
+font-weight: bold;
+}
+#formname a{
+    text-decoration: underline;
+    color: palevioletred;
+    font-size: large;
+    font-weight: bold;
+}
+
+#search {
+    color: palevioletred;
+    font-size: large;
+    font-weight: bold;
+}
+
+#username{
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bold;
+    color:blue;
+    margin-right: 1vh;
+}
+
+#infopane button:hover{
+    width: 100%;
+    color: white;
+    border:none;
+    background-color: palevioletred;
+    margin:0px;
+    padding: 0px;
+}
+
+
+#infopane button{
+    width: 100%;
+    margin:0px;
+    padding: 0px;
+    background-color: white;
+    border:none;
+    color: palevioletred;
+}
+
+
+
+#pfp{
+
+    border: 2px solid black;
+    margin-right: 1vh;
+}

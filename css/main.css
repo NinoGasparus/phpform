@@ -1,0 +1,102 @@
+#main{
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1vh;
+  min-height: 95vh;
+  justify-content: center;
+  padding-top: 0px;
+}
+.post {
+  background-color: rgb(255, 255, 255);
+  width: 60vw;
+  border:5px solid palevioletred;
+  box-shadow:5px 5px 5px rgb(112, 112, 112);
+  border-radius: 20px;
+  margin-bottom: 5vh;
+  margin-top: 1vh;
+  padding:10px
+}
+.post pre{
+font-family:'Inherit';
+}
+    
+.postTitle{
+  margin-bottom:0px;
+  padding-bottom:0px;
+}
+
+.postAuthor{
+  margin-top:0px;
+  padding-top:0px;
+}
+
+.postTextContent{
+  white-space: pre-wrap;
+  text-wrap: break-word;
+}
+
+.postSocialStats{
+  display: flex;
+  flex-direction: row;
+
+  
+}
+.postSocialStats form{
+  display: flex;
+  flex-direction: row;
+}
+.postSocialStats button{
+  margin-left:0.5vh;
+  margin-right: 0.5vh;
+  border-radius: 5px;
+  background-color: rgb(247, 159, 188);
+  color:black;
+  box-shadow: 1px 1px 1px black;
+}  
+
+
+
+#nav{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border:5px solid palevioletred;
+  box-shadow: 1px 1px 1px black;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+
+#nav button{
+  width: 10vw;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  border:3px solid rgb(214, 154, 230);
+  box-shadow: 1px 1px 1px black;
+  flex-direction: row;
+ 
+}
+
+#nav > *{
+align-self: center;
+}
+#nav form{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.postimagecontent{
+  max-width: 100%;
+  
+}
+
+
